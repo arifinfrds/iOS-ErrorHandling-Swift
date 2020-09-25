@@ -14,6 +14,10 @@
 		92931953251DEE4C00249017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92931952251DEE4C00249017 /* Assets.xcassets */; };
 		92931956251DEE4C00249017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92931954251DEE4C00249017 /* LaunchScreen.storyboard */; };
 		92931961251DEE4C00249017 /* ErrorHandlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931960251DEE4C00249017 /* ErrorHandlingTests.swift */; };
+		9293196C251DEE7300249017 /* HTTPCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9293196B251DEE7300249017 /* HTTPCode.swift */; };
+		9293196E251DEE8F00249017 /* LoadUsersError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9293196D251DEE8F00249017 /* LoadUsersError.swift */; };
+		92931971251DEEA300249017 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9293196F251DEEA300249017 /* User.swift */; };
+		92931972251DEEA300249017 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92931970251DEEA300249017 /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		9293195C251DEE4C00249017 /* ErrorHandlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErrorHandlingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92931960251DEE4C00249017 /* ErrorHandlingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingTests.swift; sourceTree = "<group>"; };
 		92931962251DEE4C00249017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9293196B251DEE7300249017 /* HTTPCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPCode.swift; sourceTree = "<group>"; };
+		9293196D251DEE8F00249017 /* LoadUsersError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadUsersError.swift; sourceTree = "<group>"; };
+		9293196F251DEEA300249017 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		92931970251DEEA300249017 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 		92931948251DEE4B00249017 /* ErrorHandling */ = {
 			isa = PBXGroup;
 			children = (
+				9293196F251DEEA300249017 /* User.swift */,
+				92931970251DEEA300249017 /* UserService.swift */,
+				9293196D251DEE8F00249017 /* LoadUsersError.swift */,
+				9293196B251DEE7300249017 /* HTTPCode.swift */,
 				92931949251DEE4B00249017 /* AppDelegate.swift */,
 				9293194B251DEE4B00249017 /* SceneDelegate.swift */,
 				9293194D251DEE4B00249017 /* ViewController.swift */,
@@ -200,6 +212,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92931972251DEEA300249017 /* UserService.swift in Sources */,
+				9293196C251DEE7300249017 /* HTTPCode.swift in Sources */,
+				9293196E251DEE8F00249017 /* LoadUsersError.swift in Sources */,
+				92931971251DEEA300249017 /* User.swift in Sources */,
 				9293194E251DEE4B00249017 /* ViewController.swift in Sources */,
 				9293194A251DEE4B00249017 /* AppDelegate.swift in Sources */,
 				9293194C251DEE4B00249017 /* SceneDelegate.swift in Sources */,
