@@ -87,16 +87,11 @@
 		92931948251DEE4B00249017 /* ErrorHandling */ = {
 			isa = PBXGroup;
 			children = (
-				9293196F251DEEA300249017 /* User.swift */,
-				92931970251DEEA300249017 /* UserService.swift */,
-				9293196D251DEE8F00249017 /* LoadUsersError.swift */,
-				9293196B251DEE7300249017 /* HTTPCode.swift */,
-				92931949251DEE4B00249017 /* AppDelegate.swift */,
-				9293194B251DEE4B00249017 /* SceneDelegate.swift */,
-				9293194D251DEE4B00249017 /* ViewController.swift */,
-				9293194F251DEE4B00249017 /* Main.storyboard */,
-				92931952251DEE4C00249017 /* Assets.xcassets */,
-				92931954251DEE4C00249017 /* LaunchScreen.storyboard */,
+				92931977251DEFBC00249017 /* app */,
+				92931973251DEF5F00249017 /* models */,
+				92931976251DEF9700249017 /* networking */,
+				92931974251DEF7500249017 /* views */,
+				92931975251DEF8500249017 /* controllers */,
 				92931957251DEE4C00249017 /* Info.plist */,
 			);
 			path = ErrorHandling;
@@ -109,6 +104,51 @@
 				92931962251DEE4C00249017 /* Info.plist */,
 			);
 			path = ErrorHandlingTests;
+			sourceTree = "<group>";
+		};
+		92931973251DEF5F00249017 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9293196F251DEEA300249017 /* User.swift */,
+				9293196D251DEE8F00249017 /* LoadUsersError.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		92931974251DEF7500249017 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9293194F251DEE4B00249017 /* Main.storyboard */,
+				92931952251DEE4C00249017 /* Assets.xcassets */,
+				92931954251DEE4C00249017 /* LaunchScreen.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		92931975251DEF8500249017 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9293194D251DEE4B00249017 /* ViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		92931976251DEF9700249017 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				92931970251DEEA300249017 /* UserService.swift */,
+				9293196B251DEE7300249017 /* HTTPCode.swift */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		92931977251DEFBC00249017 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				92931949251DEE4B00249017 /* AppDelegate.swift */,
+				9293194B251DEE4B00249017 /* SceneDelegate.swift */,
+			);
+			path = app;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
